@@ -328,7 +328,7 @@ void setup() {
     //-------------------------------------
     // mDNS
     //-------------------------------------
-    MDNS.begin(G.hostname);
+    MDNS.begin("wortuhr");
     MDNS.addService("http", "tcp", 80);
     MDNS.addService("http", "tcp", 81);
 

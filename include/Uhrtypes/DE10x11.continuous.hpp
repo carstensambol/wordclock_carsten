@@ -128,7 +128,7 @@ public:
             break;
 
         case FrontWord::uhr:
-            setFrontMatrixWord(9, 1, 3);
+            setFrontMatrixWord(9, 0, 2);
             break;
 
         case FrontWord::hour_1:

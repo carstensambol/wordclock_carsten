@@ -160,7 +160,7 @@
  *
  * Valid values for WHITE_LEDTYPE [WarmWhite, NeutralWhite, ColdWhite]
  */
-#define DEFAULT_LEDTYPE Brg
+#define DEFAULT_LEDTYPE Grb
 #define WHITE_LEDTYPE WhiteType::NeutralWhite
 
 //--------------------------------------------------------------------------
@@ -245,7 +245,7 @@
  * Valid values BOOT_LEDSWEEP [true, false]
  */
 #define BOOT_SHOWIP true
-#define BOOT_LEDSWEEP false
+#define BOOT_LEDSWEEP true
 
 //--------------------------------------------------------------------------
 // Displaying Option for Minutes
