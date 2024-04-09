@@ -98,6 +98,7 @@ let TRANSLATION_DE_DE = {
 			"de-10-11-vertical": "🇩🇪 10 × 11 Vertikal",
 			"de-10-11-clock": "🇩🇪 10 × 11 Uhr",
 			"de-10-11-nero": "🇩🇪 10 × 11 Nero",
+			"de-10-11-carsten": "🇩🇪 10 × 11 Carsten",
 			"de-10-11-schwaebisch": "🇩🇪 10 × 11 Schwäbisch",
 			"de-11-11": "🇩🇪 11 × 11",
 			"de-11-11-v2": "🇩🇪 11 × 11 Version 2",
