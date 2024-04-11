@@ -41,13 +41,14 @@ public:
         const uint8_t realNrRows = 11;
         // starting from bottom left corner, the first minute LED comes after 2 unused LEDs
         const uint8_t offset = 2;
-        const uint16_t start = realNrCols * realNrRows - 1 - offset;
+        const uint16_t start = realNrCols * realNrRows - 1 - offset -1;
 
         for (uint8_t i = 0; i < 4; i++) {
             // i*2: skip every second LED
-            returnArr[i] = start - (i * 2);
+            returnArr[3-i] = start - (i * 2);
         }
     };
+
 
     //------------------------------------------------------------------------------
 
